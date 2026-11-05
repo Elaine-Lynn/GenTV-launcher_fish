@@ -23,4 +23,4 @@ GitHub Actions has a separate clean-checkout build. Its status should be read fr
 
 Automated scanning is a risk-reduction check, not a guarantee that every possible secret or identifying detail can be detected. AI-generated asset provenance and MIT licensing do not establish exclusive rights or grant third-party trademarks.
 
-The public README does not assert unverified global market precedence. “Interactive TV launcher with fish feeding and fishing” describes the implemented feature set without making a universal first-in-the-world claim.
+The Chinese opening headline uses the maintainer-supplied marketing positioning. Its global-precedence wording has not been independently established by this source/privacy review. Implemented features and compatibility limits are documented separately.

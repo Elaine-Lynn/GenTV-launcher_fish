@@ -1,12 +1,14 @@
 # GenTV Fish Launcher
 
-**Your TV home screen can be a living pond.**
+**An interactive TV desktop—and a view worth staying for.**
 
 [中文](README.md) · [Build & install](android/README.md) · [Privacy](PRIVACY.md) · [MIT License](LICENSE)
 
 ![GenTV running on Android TV](docs/media/gentv-hero.gif)
 
-GenTV is an interactive Android TV home screen where you can watch koi, feed them, and wake a fishing cat to catch fish from the same living pond. Apps remain within reach, while your home screen becomes somewhere worth staying.
+GenTV brings everyday app access and a living pond together on your TV. Toss in a little food and watch the koi gather. Wake the sleepy cat, wait beside the float, catch a few fish, and collect a little daily merit.
+
+Your favorite apps are still within reach. When it is time to slow down, the home screen itself becomes something to enjoy: clear water, gentle movement, and small surprises that brighten an ordinary moment.
 
 ## Feed a little joy into the room
 
