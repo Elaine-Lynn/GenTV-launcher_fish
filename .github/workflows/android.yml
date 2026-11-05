@@ -1,0 +1,23 @@
+name: Source checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: android-actions/setup-android@v3
+      - uses: gradle/actions/setup-gradle@v4
+      - run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
+      - run: python3 tools/check_public_source.py
+      - run: npm run check && npm test
+      - run: sh android/test-simulation.sh
+      - run: sh android/gradlew -p android :app:assembleDebug :app:assembleDebugAndroidTest

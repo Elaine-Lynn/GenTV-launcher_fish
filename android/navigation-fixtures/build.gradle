@@ -1,0 +1,16 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.gentv.fishlauncher.navfixture'
+    compileSdk 35
+    defaultConfig { applicationId 'com.gentv.fishlauncher.navfixture'; minSdk 23; targetSdk 35; versionCode 1; versionName '1.0' }
+    flavorDimensions 'fixture'
+    productFlavors {
+        (1..10).each { n ->
+            create(String.format('sample%02d', n)) {
+                dimension 'fixture'
+                applicationIdSuffix String.format('.app%02d', n)
+                manifestPlaceholders = [appLabel: String.format('测试应用 %02d', n), appNumber: "${n}"]
+            }
+        }
+    }
+}

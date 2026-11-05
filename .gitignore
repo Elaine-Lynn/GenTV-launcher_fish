@@ -1,0 +1,27 @@
+android/.gradle/
+android/local.properties
+android/**/build/
+*.keystore
+*.jks
+android/signing.local.properties
+output/GenTV TV 预览.app/
+.DS_Store
+work/
+
+# Local builds, generated releases and machine-specific configuration
+**/.gradle/
+**/build/
+**/local.properties
+**/signing.local.properties
+output/
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+**/signing/
+*.apk
+*.aab
+*.apks
+*.hprof
+*.log

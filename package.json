@@ -1,0 +1,1 @@
+{"name":"gentv-fishlauncher-prototype","version":"0.2.0","private":true,"type":"module","scripts":{"dev":"node server.mjs","check":"node --check pond.js && node --check koi-pose.js && node --check server.mjs","test":"node tests/simulation.mjs && node tests/pose.mjs"}}

@@ -1,0 +1,7 @@
+pluginManagement { repositories { google(); mavenCentral(); gradlePluginPortal() } }
+dependencyResolutionManagement { repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS); repositories { google(); mavenCentral() } }
+rootProject.name = 'GenTVFishLauncher'
+include ':app'
+
+// Independent navigation fixtures; never packaged into the launcher.
+include ':navigation-fixtures'

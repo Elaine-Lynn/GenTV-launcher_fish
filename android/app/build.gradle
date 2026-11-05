@@ -1,0 +1,34 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.gentv.fishlauncher'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.gentv.fishlauncher'
+        minSdk 23
+        targetSdk 35
+        versionCode 31
+        versionName '1.11.0'
+        testInstrumentationRunner 'com.gentv.fishlauncher.LauncherSmoke'
+    }
+    def localSigning = new Properties()
+    def signingFile = rootProject.file('signing.local.properties')
+    if (signingFile.exists()) { signingFile.withInputStream { localSigning.load(it) } }
+    signingConfigs {
+        localRelease {
+            if (signingFile.exists()) {
+                storeFile rootProject.file(localSigning['storeFile'])
+                storePassword localSigning['storePassword']
+                keyAlias localSigning['keyAlias']
+                keyPassword localSigning['keyPassword']
+            }
+        }
+    }
+    buildTypes {
+        release {
+            if (signingFile.exists() && !project.hasProperty('unsignedRelease')) { signingConfig signingConfigs.localRelease }
+            minifyEnabled true; shrinkResources true; proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_11; targetCompatibility JavaVersion.VERSION_11 }
+}
