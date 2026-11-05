@@ -12,7 +12,11 @@ The current Android application bundles these project assets:
 | android/app/src/main/assets/caustics.png | Moving light texture | Deterministic project script |
 | android/app/src/main/res/raw/feed_plop.wav | Feeding impact | Locally synthesized audio |
 | docs/media/gentv-hero.gif | README hero | Isolated Android TV emulator recording, converted locally |
-| docs/media/app-library.png | App library preview | Isolated Android TV emulator screenshot |
+| docs/media/feeding-time.png | Feeding scene | Isolated Android TV emulator screenshot |
+| docs/media/cat-dozing.png | Sleeping cat scene | Isolated Android TV emulator screenshot |
+| docs/media/fishing-time.png | Fishing scene | Isolated Android TV emulator screenshot |
+| docs/media/catch-moment.png | A real catch and merit notification | Isolated Android TV emulator screenshot |
+| docs/media/immersive-pond.png | Idle pond scene | Isolated Android TV emulator screenshot |
 
 Dynamic fish meshes, maple leaves, ripples, fishing rod and line are drawn by project code. Demonstration captures may include app icons read from installed applications; those brands belong to their respective owners.
 

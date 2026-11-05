@@ -8,17 +8,37 @@
 
 GenTV is an interactive Android TV home screen where you can watch koi, feed them, and wake a fishing cat to catch fish from the same living pond. Apps remain within reach, while your home screen becomes somewhere worth staying.
 
-## A home screen you can interact with
+## Feed a little joy into the room
 
-- **Feed the pond:** pellets fall onto the water with a splash; fish approach and eat.
-- **Go fishing:** a fish must enter the area beneath the float before a 50% bite roll. There is no timer-only catch. A caught fish leaves the pond and a replacement swims in from the edge.
-- **Enjoy the details:** koi swim in loose groups or wander alone, a turtle paddles slowly, raindrops ripple, and maple leaves drift toward the bank.
-- **Keep apps simple:** five editable favorites, an All Apps button, and up to two recent apps excluding favorites. Recents only track apps opened through GenTV.
-- **Navigate with your remote:** a six-column, two-row paged library with smooth white focus movement.
-- **Let the scenery breathe:** after 15 seconds, the clock and controls fade to 30% opacity without disappearing.
-- **Stay local:** no account, ads or analytics SDK. The Android app does not request internet access.
+Drop a handful of food and watch the koi approach, turn and gather around it. Tails flick, ripples spread, and the pond fills with movement. There is no progress bar to chase: sometimes a few quiet minutes watching fish is all you need.
 
-“Keep fish” means interactive viewing and feeding; this is not a breeding, leveling, or hunger-management game. The hero GIF is captured from the Android engine on an isolated TV emulator, not a concept animation.
+![Feeding the koi](docs/media/feeding-time.png)
+
+## Wake the sleepy cat and go fishing
+
+The little cat dozes on a stool beneath its straw hat. Let it rest, or wake it for a few casts beside the pond. Watch the float, wait for a fish to swim beneath it, and enjoy the small surprise of a catch.
+
+![The fishing cat taking a nap](docs/media/cat-dozing.png)
+
+![The cat awake beside the float](docs/media/fishing-time.png)
+
+## Collect today's little moments
+
+Each catch records its name, weight and time, together with a little daily merit. Open Achievements to look back at the fish you met today. There is no leaderboard to keep up with—just a small record of time pleasantly spent.
+
+![A catch adds a little daily merit](docs/media/catch-moment.png)
+
+Catches and merit stay on the device. No account, no check-in task, no pressure.
+
+## Or simply enjoy the view
+
+Koi wander together and apart, the turtle paddles slowly, and an occasional drop or maple leaf touches the water. After 15 seconds, controls and the clock fade to 30% opacity without disappearing. Your apps remain within reach; the scenery gets room to breathe.
+
+![Quiet pond with the interface faded](docs/media/immersive-pond.png)
+
+Five editable favorites, up to two deduplicated recent apps, and a remote-friendly application library keep everyday TV use simple. No account, ads or analytics SDK; the Android app does not request internet access.
+
+The GIF and scene images are actual Android-engine captures from an isolated TV emulator, not concept renders. Fish positions vary naturally. “Keep fish” means viewing and feeding, not breeding, leveling, or hunger management.
 
 ## Build
 
